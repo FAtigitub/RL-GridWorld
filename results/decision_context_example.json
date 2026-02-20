@@ -1,0 +1,68 @@
+{
+  "state": {
+    "agent_position": [
+      0,
+      0
+    ],
+    "goal_position": [
+      4,
+      4
+    ],
+    "traps": [
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "q_values": {
+    "Haut": 63.92438507080078,
+    "Bas": 67.83277893066406,
+    "Gauche": 63.94178771972656,
+    "Droite": 67.91450500488281
+  },
+  "best_action": {
+    "index": 3,
+    "name": "Droite",
+    "q_value": 67.91450500488281
+  },
+  "action_ranking": [
+    {
+      "rank": 1,
+      "action": "Droite",
+      "q_value": 67.91450500488281
+    },
+    {
+      "rank": 2,
+      "action": "Bas",
+      "q_value": 67.83277893066406
+    },
+    {
+      "rank": 3,
+      "action": "Gauche",
+      "q_value": 63.94178771972656
+    },
+    {
+      "rank": 4,
+      "action": "Haut",
+      "q_value": 63.92438507080078
+    }
+  ],
+  "state_analysis": {
+    "obstacles": {
+      "Haut": "mur",
+      "Bas": "libre",
+      "Gauche": "mur",
+      "Droite": "libre"
+    },
+    "distance_to_goal": 5.656854249492381,
+    "direction_to_goal": "droite et bas",
+    "nearest_trap_distance": 3.0,
+    "is_near_edge": {
+      "top": true,
+      "bottom": false,
+      "left": true,
+      "right": false
+    }
+  }
+}

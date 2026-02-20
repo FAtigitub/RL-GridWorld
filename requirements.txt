@@ -1,0 +1,32 @@
+# RL Libraries
+gymnasium==0.29.1
+stable-baselines3==2.2.1
+torch>=2.2.0
+numpy>=1.26.0
+
+# LLM Integration
+google-genai>=1.60.0
+python-dotenv==1.0.0
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0
+pygame==2.5.2
+pillow==10.1.0
+plotly==5.18.0
+
+# Web Interface
+streamlit==1.29.0
+streamlit-extras==0.3.6
+
+# Data Processing
+pandas==2.1.4
+json5==0.9.14
+
+# Logging & Monitoring
+tensorboard==2.15.1
+wandb==0.16.1
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0

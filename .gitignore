@@ -1,0 +1,38 @@
+ Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Modèles entraînés (fichiers volumineux)
+models/*.zip
+models/*.pt
+models/*.pth
+
+# Logs TensorBoard (volumineux)
+logs/tensorboard/*/events.*
+
+# Environnement virtuel
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données temporaires
+*.log
+*.tmp

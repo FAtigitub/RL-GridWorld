@@ -1,0 +1,104 @@
+{
+  "explanations": [
+    {
+      "state": 0,
+      "context": {
+        "state": {
+          "agent_position": [
+            4.0,
+            3.0
+          ],
+          "goal_position": [
+            2,
+            1
+          ],
+          "traps": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              4
+            ]
+          ]
+        },
+        "q_values": {
+          "Haut": 14.145572662353516,
+          "Bas": 9.096418380737305,
+          "Gauche": 13.68245792388916,
+          "Droite": 10.151239395141602
+        },
+        "best_action": {
+          "index": 0,
+          "name": "Haut",
+          "q_value": 14.145572662353516
+        },
+        "action_ranking": [
+          {
+            "rank": 1,
+            "action": "Haut",
+            "q_value": 14.145572662353516
+          },
+          {
+            "rank": 2,
+            "action": "Gauche",
+            "q_value": 13.68245792388916
+          },
+          {
+            "rank": 3,
+            "action": "Droite",
+            "q_value": 10.151239395141602
+          },
+          {
+            "rank": 4,
+            "action": "Bas",
+            "q_value": 9.096418380737305
+          }
+        ],
+        "state_analysis": {
+          "obstacles": {
+            "Haut": "libre",
+            "Bas": "libre",
+            "Gauche": "libre",
+            "Droite": "mur"
+          },
+          "distance_to_goal": 2.8284271247461903,
+          "direction_to_goal": "gauche et haut",
+          "nearest_trap_distance": 4.123105625617661,
+          "is_near_edge": {
+            "top": false,
+            "bottom": false,
+            "left": false,
+            "right": true
+          }
+        }
+      },
+      "explanation": "L'agent situé en [4.0, 3.0] a choisi l'action Haut (Q-value: 14.15) pour se rapprocher de l'objectif [2, 1] situé à 2.83 unités de distance. La direction optimale est 'gauche et haut', et Haut s'aligne avec cette stratégie. Les directions Droite sont bloquées par des murs. Attention: piège(s) présent(s) en [1,0], [0,0], [0,4] (distance minimale: 4.12). Haut surpasse Gauche (Q=13.68) avec un avantage de 0.47 points. L'action Bas (Q=9.1) est la moins favorable car elle éloigne de l'objectif.",
+      "validation": {
+        "is_valid": true,
+        "reliability_score": 100,
+        "issues": [],
+        "total_issues": 0
+      }
+    }
+  ],
+  "batch_statistics": {
+    "total_explanations": 1,
+    "valid_explanations": 1,
+    "invalid_explanations": 0,
+    "validity_rate": 100.0,
+    "average_reliability_score": 100.0,
+    "all_issues": [],
+    "issue_types": {
+      "concept_hallucinations": 0,
+      "qvalue_inconsistencies": 0,
+      "position_errors": 0,
+      "action_errors": 0
+    }
+  }
+}
