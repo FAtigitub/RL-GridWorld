@@ -179,12 +179,11 @@ gridworld_llm_project/
 │   └── dqn_gridworld_final.zip       # Modèle entraîné (85% accuracy)
 ├── logs/
 │   └── tensorboard/                  # Logs d'entraînement
-├── RAPPORT_TECHNIQUE.md              # Documentation technique complète
-├── GUIDE_GITHUB.md                   # Guide push vers GitHub
+
 ├── requirements.txt                  # Dépendances Python
 ├── .gitignore                        # Fichiers exclus de Git
-└── README.md                         # Ce fichier
-```
+
+
 
 ## 🧠 Détails Techniques
 
@@ -239,99 +238,7 @@ gridworld_llm_project/
 - Précoces (4-5 pas): Engagement couloir bloqué
 - Tardifs (6-7 pas): Piège sur case quasi-obligatoire
 
-## 📸 Captures d'Écran
 
-### Application Streamlit
-![Streamlit App](docs/images/streamlit_app.png)
 
-### Visualisation Trajectoire
-![Trajectoire](docs/images/trajectory.png)
 
-### Q-values Analysis
-![Q-values](docs/images/qvalues.png)
 
-### TensorBoard Training
-![TensorBoard](docs/images/tensorboard.png)
-
-*Note: Créer dossier `docs/images/` et ajouter captures*
-
-## 🔍 Documentation Complète
-
-Voir [RAPPORT_TECHNIQUE.md](RAPPORT_TECHNIQUE.md) pour:
-- Architecture détaillée du système
-- Métriques d'entraînement TensorBoard
-- Analyse approfondie des performances
-- Fonctionnalités complètes application Streamlit
-- Système d'explications LLM
-- Limites et perspectives d'amélioration
-
-## 🚀 Améliorations Futures
-
-### Court Terme
-- [ ] Augmenter architecture réseau (plus de couches)
-- [ ] Tester algorithmes alternatifs (PPO, SAC)
-- [ ] Ajouter curriculum learning (1→5 pièges progressif)
-- [ ] Export trajectoires en vidéo
-
-### Moyen Terme
-- [ ] Grilles plus grandes (10×10, 20×20)
-- [ ] Obstacles dynamiques (pièges mobiles)
-- [ ] Multi-agents collaboratifs
-- [ ] Mécanismes d'attention
-
-### Long Terme
-- [ ] Extension 3D
-- [ ] Deployment API REST
-- [ ] Mobile app (React Native + API)
-- [ ] Benchmarking autres algorithmes RL
-
-## 📝 License
-
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour détails.
-
-## 👤 Auteur
-
-**Votre Nom**
-- GitHub: [@VotreUsername](https://github.com/VotreUsername)
-- LinkedIn: [Votre Profil](https://linkedin.com/in/votre-profil)
-- Email: votre.email@example.com
-
-## 🙏 Remerciements
-
-- [Stable-Baselines3](https://stable-baselines3.readthedocs.io/) - Framework RL
-- [OpenAI Gymnasium](https://gymnasium.farama.org/) - Interface environnements
-- [Streamlit](https://streamlit.io/) - Framework web apps
-- [Plotly](https://plotly.com/) - Visualisations interactives
-- [Google Gemini](https://ai.google.dev/) - API LLM
-
-## 📊 Citations
-
-Si vous utilisez ce projet dans vos recherches, veuillez citer:
-
-```bibtex
-@software{gridworld_rl_explainable_2026,
-  author = {Votre Nom},
-  title = {GridWorld RL - Explainable AI with DQN},
-  year = {2026},
-  publisher = {GitHub},
-  url = {https://github.com/VOTRE_USERNAME/gridworld-rl-explainable}
-}
-```
-
-## 🐛 Signaler un Bug
-
-Problème trouvé? [Créer une issue](https://github.com/VOTRE_USERNAME/gridworld-rl-explainable/issues)
-
-## 🤝 Contribuer
-
-Les contributions sont les bienvenues! Voir [CONTRIBUTING.md](CONTRIBUTING.md) pour guidelines.
-
-1. Fork le projet
-2. Créer branche feature (`git checkout -b feature/AmazingFeature`)
-3. Commit changements (`git commit -m 'Add AmazingFeature'`)
-4. Push vers branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir Pull Request
-
----
-
-**⭐ Si ce projet vous aide, n'hésitez pas à lui donner une étoile!**
