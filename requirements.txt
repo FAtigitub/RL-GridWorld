@@ -1,7 +1,7 @@
 # RL Libraries
 gymnasium==0.29.1
 stable-baselines3==2.2.1
-torch>=2.2.0
+torch==2.2.0
 numpy>=1.26.0
 
 # LLM Integration
