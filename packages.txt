@@ -1,0 +1,8 @@
+freeglut3-dev
+libgl1-mesa-dev
+libglu1-mesa-dev
+libsdl2-dev
+libsdl2-image-dev
+libsdl2-mixer-dev
+libsdl2-ttf-dev
+swig
